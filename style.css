@@ -80,7 +80,6 @@ main {
     transform: translateY(-5px);
 }
 
-/* Buttons inside icon boxes */
 .icon-box a {
     display: inline-block;
     margin-top: 10px;
@@ -92,13 +91,11 @@ main {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Hover effect for buttons */
 .icon-box a:hover {
     background-color: #8b5e3c; /* darker brown */
     color: #fff;
 }
 
-/* --- Tables (Literacy Page) --- */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -115,7 +112,6 @@ th {
     background-color: #d9cbb0;
 }
 
-/* --- Lists for Additional Resources --- */
 ul li a {
     color: #5A4A3F;
 }
@@ -127,7 +123,6 @@ ul li a:hover {
     border-radius: 4px;
 }
 
-/* --- Footer --- */
 footer {
     background: #a27b5c; /* warm tan */
     padding: 10px;
