@@ -1,1 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Recursos Bilingües para Maestras - Inicio</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Recursos Bilingües para Maestras</h1>
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="literacy.html">Lectoescritura</a></li>
+<li><a href="math.html">Matemáticas</a></li>
+<li><a href="classroom.html">Manejo del Aula</a></li>
+<li><a href="about.html">Sobre/Contacto</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="intro">
+<h2>Bienvenidos</h2>
+<p>Este sitio fue creado para apoyar a maestras y maestros bilingües con recursos gratuitos y accesibles para la enseñanza de lectoescritura, matemáticas y manejo del aula. Aquí encontrarás materiales diseñados específicamente para las necesidades de estudiantes bilingües.</p>
+</section>
+<section class="icons">
+<div class="icon-box">
+<img src="https://via.placeholder.com/120" alt="Lectoescritura" />
+<p>Lectoescritura</p>
+</div>
+<div class="icon-box">
+<img src="https://via.placeholder.com/120" alt="Matemáticas" />
+<p>Matemáticas</p>
+</div>
+<div class="icon-box">
+<img src="https://via.placeholder.com/120" alt="Manejo del Aula" />
+<p>Manejo del Aula</p>
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 Recursos Bilingües para Maestras</p>
+</footer>
+</body>
+</html>
 
+<!-- literacy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lectoescritura</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Recursos Bilingües para Maestras</h1>
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="literacy.html">Lectoescritura</a></li>
+<li><a href="math.html">Matemáticas</a></li>
+<li><a href="classroom.html">Manejo del Aula</a></li>
+</html>
