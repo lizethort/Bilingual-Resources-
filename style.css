@@ -1,3 +1,4 @@
+/* --- Global Styles --- */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,26 +6,47 @@ body {
     color: #4b3f35; /* dark brown */
 }
 
+a {
+    text-decoration: none;
+}
+
+/* --- Header --- */
 header {
     background: #a27b5c; /* warm tan */
     padding: 20px;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    color: #f0ebe1; /* light text for contrast */
+}
+
+/* --- Navigation --- */
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 10px;
 }
 
 nav a {
-    text-decoration: none;
     font-weight: bold;
-    color: #4b3f35; /* dark brown */
+    color: #5A4A3F; /* default text color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
 }
 
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #5A4A3F;
+    background-color: #D9CBB0; /* light tan */
+}
+
+/* --- Main Content --- */
 main {
     padding: 20px;
 }
@@ -35,6 +57,7 @@ main {
     text-align: center;
 }
 
+/* --- Icon Boxes (Home Page / Sections) --- */
 .icons {
     display: flex;
     justify-content: center;
@@ -44,11 +67,80 @@ main {
 
 .icon-box {
     text-align: center;
+    background-color: #e7dfd4; /* light beige */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
 }
 
+/* Hover effect for icon boxes */
+.icon-box:hover {
+    background-color: #d9cbb0; /* slightly darker tan */
+    transform: translateY(-5px);
+}
+
+/* Buttons inside icon boxes */
+.icon-box a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #a27b5c; /* warm tan button */
+    color: #f0ebe1; /* light text */
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for buttons */
+.icon-box a:hover {
+    background-color: #8b5e3c; /* darker brown */
+    color: #fff;
+}
+
+/* --- Tables (Literacy Page) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #d9cbb0;
+}
+
+/* --- Lists for Additional Resources --- */
+ul li a {
+    color: #5A4A3F;
+}
+
+ul li a:hover {
+    color: #fff;
+    background-color: #D9CBB0;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+/* --- Footer --- */
 footer {
     background: #a27b5c; /* warm tan */
     padding: 10px;
     text-align: center;
     margin-top: 40px;
+    color: #f0ebe1;
+}
+
+footer a {
+    color: #f0ebe1;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
 }
