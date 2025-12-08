@@ -139,3 +139,12 @@ footer a {
 footer a:hover {
     color: #fff;
 }
+
+main img {
+    width: 100%;      /* make image full width */
+    max-height: 400px; /* optional: limit height */
+    object-fit: cover; /* crop nicely if needed */
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px; /* optional soft edges */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
