@@ -139,11 +139,3 @@ footer a {
 footer a:hover {
     color: #fff;
 }
-.welcome-image {
-  width: 60%;         
-  max-width: 500px;    
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-}
