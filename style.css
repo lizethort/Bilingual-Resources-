@@ -141,3 +141,8 @@ main img {
     margin: 20px auto;    
     border-radius: 8px;   
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+    
+.header-image {
+    border: 3px solid #ccc;  /* light neutral gray */
+    border-radius: 8px;      /* optional rounded corners */
+}
