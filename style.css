@@ -1,24 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f0ebe1; /* soft beige */
-    color: #4b3f35; /* dark brown */
+    background: #f0ebe1; 
+    color: #4b3f35; 
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
-
 header {
-    background: #a27b5c; 
+    background: #a27b5c;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: #f0ebe1; 
+    color: #f0ebe1;
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav ul {
 
 nav a {
     font-weight: bold;
-    color: #5A4A3F; 
+    color: #5A4A3F;
     padding: 5px 10px;
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s;
@@ -40,11 +40,12 @@ nav a {
 
 nav a:hover {
     color: #5A4A3F;
-    background-color: #D9CBB0; 
+    background-color: #D9CBB0;
 }
 
-
 main {
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
 }
 
@@ -52,6 +53,32 @@ main {
     max-width: 600px;
     margin: auto;
     text-align: center;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p, ul, ol {
+    text-align: left;
+}
+
+main img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-image {
+    border: 3px solid #ccc;
+    border-radius: 8px;
 }
 
 .icons {
@@ -63,7 +90,7 @@ main {
 
 .icon-box {
     text-align: center;
-    background-color: #e7dfd4; 
+    background-color: #e7dfd4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
@@ -71,25 +98,27 @@ main {
 }
 
 .icon-box:hover {
-    background-color: #d9cbb0; 
+    background-color: #d9cbb0;
     transform: translateY(-5px);
 }
+
 .icon-box a {
-    display: inline-block;
-    margin-top: 10px;
+    display: block;
+    margin: 20px auto 0 auto;
     padding: 8px 15px;
-    background-color: #a27b5c; 
-    color: #f0ebe1; 
+    background-color: #a27b5c;
+    color: #f0ebe1;
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .icon-box a:hover {
-    background-color: #8b5e3c; 
+    background-color: #8b5e3c;
     color: #fff;
 }
 
+/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -106,8 +135,10 @@ th {
     background-color: #d9cbb0;
 }
 
+/* Lists Links */
 ul li a {
     color: #5A4A3F;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 ul li a:hover {
@@ -118,7 +149,7 @@ ul li a:hover {
 }
 
 footer {
-    background: #a27b5c; 
+    background: #a27b5c;
     padding: 10px;
     text-align: center;
     margin-top: 40px;
@@ -132,40 +163,4 @@ footer a {
 
 footer a:hover {
     color: #fff;
-}
-
-main img {
-    width: 300px;   
-    height: auto;       
-    display: block;
-    margin: 20px auto;    
-    border-radius: 8px;   
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
-    
-.header-image {
-    border: 3px solid #ccc; 
-    border-radius: 8px;      
-}
-
-header, h1, h2, h3, .intro {
-    text-align: center;
-}
-
-p, ul, ol {
-    text-align: left;
-}
-
-main img, .icon-box a {
-    display: block;
-    margin: 20px auto;
-}
-
-section {
-    margin: 30px 0;
-}
-
-main {
-    max-width: 900px;
-    margin: auto; 
-    padding: 20px;
 }
