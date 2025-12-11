@@ -146,3 +146,31 @@ main img {
     border: 3px solid #ccc; 
     border-radius: 8px;      
 }
+
+/* Center headings and intro sections */
+header, h1, h2, h3, .intro {
+    text-align: center;
+}
+
+/* Keep paragraphs and lists left-aligned for readability */
+p, ul, ol {
+    text-align: left;
+}
+
+/* Optional: center images and buttons in sections */
+main img, .icon-box a {
+    display: block;
+    margin: 20px auto; /* centers horizontally */
+}
+
+/* Optional: add some spacing around sections */
+section {
+    margin: 30px 0;
+}
+
+/* Optional: make the main content a bit narrower on large screens */
+main {
+    max-width: 900px;
+    margin: auto; /* centers the main content */
+    padding: 20px;
+}
